@@ -1,0 +1,35 @@
+<div class="mt-5">
+    
+    <form action="/login" method="POST" class="mt-4">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Tài khoản</span>
+            <input type="text" name="username" class="form-control" >
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Mật khẩu</span>
+            <input type="password" name="password" class="form-control" >
+        </div>
+        <div class="form-check mb-3" >
+            <input class="form-check-input" type="radio" value="up" id="flexCheckDefault" name="keo">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Kèo trên
+                </label>
+        </div>
+        <div class="form-check mb-3">
+            <input class="form-check-input" type="radio" value="down" id="flexCheckChecked" name="keo">
+                <label class="form-check-label" for="flexCheckChecked">
+                    Kèo dưới
+                </label>
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Số lượng</span>
+            <input type="number" class="form-control" name="soluong">
+        </div>
+
+
+            <button class="btn btn-primary" type="submit">Bắt đầu</button>
+    </form>
+</div>
+
